@@ -32,3 +32,15 @@ config/
 *.key
 *.pem
 secrets.json
+
+# Memory / runtime data
+memstore/*.json
+memory_data/
+logs/
+*.log
+*.tmp
+
+# Secrets
+.env
+.env.*
+secrets.json
