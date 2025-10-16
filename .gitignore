@@ -1,0 +1,34 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+*.tmp
+*.bak
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Databases / memory
+*.db
+*.sqlite*
+memstore/*.db
+memstore/*.sqlite*
+memory/
+logs/
+
+# IDEs
+.vscode/
+.idea/
+
+# Local configs
+config/
+*.key
+*.pem
+secrets.json
